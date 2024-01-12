@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whack A Bug</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="board">
+        <div class="game-area">
+          <div class="grid">
+            <div class="cell clickable"></div>
+            <div class="cell clickable"></div>
+            <div class="cell clickable"></div>
+            <div class="cell clickable"></div>
+            <div class="cell clickable"></div>
+            <div class="cell clickable"></div>
+            <div class="cell clickable"></div>
+            <div class="cell clickable"></div>
+            <div class="cell clickable"></div>
+          </div>
+        </div>
+      <div class="description-area">
+        <h1>Whack-a-bug</h1>
+        <p>Whack the bug before time runs out!</p>
+        <h2>Score: <span class="scoreCounter"></span></h2>
+        <h2>Time: <span class="timerCounter"></span></h2>
+        <h2 class="gameOver">Game Over!</h2>
+      </div>    
+    </div>
+    <button class="play clickable">Play</button>
+    <!-- Load the javascript file after everything else -->
+    <script src="./script.js"></script>
+  </body>
+</html>

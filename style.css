@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    background-color: yellowgreen;
+    font-family: 'Press Start 2P', system-ui;
+    color: #3535EC;
+  }
+  
+  .board {
+    display: flex;
+    padding: 30px;
+  }
+  
+  .game-area {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid {
+    width: 368px;
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    padding: 20px;
+  }
+  
+  .cell {
+    background-color: rgb(210, 250, 198);
+    height: 110px;
+    width: 110px;
+    margin: 0;
+    border: 3px solid #3535EC;
+  }
+  .clickable:hover {
+    cursor: pointer;
+  }
+  
+  .description-area {
+    width: 3600px;
+    padding: 20px;
+  
+  }
+  
+  h1 {
+    font-size: xx-large;
+  }
+  
+  p {
+    margin: 30px 0;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  .gameOver {
+    text-align: center;
+    margin-top: 40px;
+    font-size: xx-large;
+  }
+  
+  .bug {
+    background-image: url('./images/bug.png');
+    background-size: contain;
+  }
+  
+  .splat {
+    background-image: url('./images/bug-splat.png');
+    background-size: contain;
+  }
+  
+  .play {
+    font-family: inherit;
+    color: #E2135F;
+    font-size: xx-large;
+    padding: 20px;
+    width: 200px;
+    margin-left: 130px;
+    margin-top: 20px;
+    background-color: #3535EC;
+    border: none;
+  }
